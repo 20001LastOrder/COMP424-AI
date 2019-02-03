@@ -3,7 +3,7 @@ package sentenceGenerator;
 public class Element implements Comparable<Element>{
 		protected String name;
 		protected int cost;
-		
+		protected int parent;
 		public Element(String name, int cost) {
 			this.name = name;
 			this.cost = cost;
